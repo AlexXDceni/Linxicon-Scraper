@@ -47,7 +47,7 @@ def get_words(tab_name="Practice"):
     center_y = win.top + (win.height // 2)
     
     if center_x < 1 or center_y < 1:
-        print("Coordonate fereastră invalide. Asigură-te că browserul este pe ecranul principal.")
+        print("Error: Tab not in background or minimized.")
         return None
 
     pyautogui.click(center_x, center_y)

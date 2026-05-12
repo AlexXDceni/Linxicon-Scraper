@@ -1,4 +1,4 @@
-from screen_view import get_words
+from scraper import get_words
 from ai_chat import get_hint
 
 if __name__ == "__main__":
